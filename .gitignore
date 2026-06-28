@@ -1,0 +1,25 @@
+# Environment
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# Data (generated)
+data/raw/
+data/processed/
+data/vector_store/
+
+# Always keep .gitkeep placeholders
+!.gitkeep
